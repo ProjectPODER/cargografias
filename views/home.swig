@@ -1,7 +1,7 @@
-{% extends 'clean-layout.html' %}
+{% extends 'layout.html' %}
 
 {% block title %}
-Cargografías
+Flujos ilícitos
 {% endblock %}
 
 {% block head %}

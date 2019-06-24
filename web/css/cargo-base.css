@@ -27,9 +27,9 @@ body{
 
 	margin:0;
 }
-header, footer {
+footer {
   width: 100%;
-  background-color: rgb(33, 33, 33);
+  background-color: #0A314E;
   color: white;
   display: block;
   padding-top: 1em;

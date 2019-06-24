@@ -27,12 +27,15 @@
     <link rel="stylesheet" href="/css/cargo-base.css" type="text/css">
     <link rel="stylesheet" href="/css/animations.css" type="text/css">
     <link rel="stylesheet" href="/bower_components/wow.js/css/libs/animate.css" type="text/css">
+    <link rel="stylesheet" href="/css/flujosilicitos.css" type="text/css">
+
     
     <!-- V2 Libs -->
     <script type="text/javascript" src="/js/lib/jquery-2.0.0.min.js"></script>
     <script type="text/javascript" src="/js/lib/underscore.min.js"></script>
     <script type="text/javascript" src="/js/lib/d3.min.js"></script>
     <script type="text/javascript" src="/js/lib/moment.min.js"></script>
+    <!-- <script type="text/javascript" src="/js/flujosilicitos.js"></script> -->
 
 
     
@@ -58,23 +61,24 @@
   {% endblock %}
 </head>
 <body>
-        <header>
-        <div class="row">
+    <header>
+        <!-- <div class="row">
             <div class="info col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="box">
-                        <div class="row">
-                            <div class="info col-xs-3">
-                                <div class="logo box">
-                                    <a href="/"><img src="/img/logo.png"></a>
-                                </div>
+                <div class="box">
+                    <div class="row">
+                        <div class="info col-xs-3">
+                            <div class="logo box">
+                                <a href="http://projectpoder.org/es/" target="_blank">
+                                    <img style="width:115px;" src="/img/logos/logo.png">
+                                </a> 
                             </div>
-                            <div class="info col-xs-9">
-                                <div class="title box">
-                                    <h1> Cargograf&iacute;as </h1>
-                                    <p> La l&iacute;nea de tiempo de Pol&iacute;ticos Argentinos</p>
-                                </div>
+                        </div>
+                        <div class="info col-xs-9">
+                            <div class="title box">
+                                <h1> Cargograf&iacute;as </h1>
+                                <p> La l&iacute;nea de tiempo de Pol&iacute;ticos Argentinos</p>
                             </div>
-                        
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,7 +94,7 @@
                 </ul>
             </div>
             <div class="items col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                 <ul class="menu">
+                <ul class="menu">
                     <li>
                     <a target="_blank" title="Sigue a @Cargografias en Twitter" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Flocalhost%3A3000%2F&amp;region=follow_link&amp;screen_name=Cargografias&amp;tw_p=followbutton&amp;variant=2.0">
                         <i class="fa fa-twitter"></i></a>
@@ -104,15 +108,63 @@
                     <li>
                        <a href="#"><i class="fa fa-cog"></i></a>
                     </li>
-                    
                 </ul>
             </div>
+        </div> -->
+        <div  class="row header">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="box">
+                    <ul class="logos">
+                        <li>
+                            <a href="http://projectpoder.org/es/" target="_blank">
+                                <img style="width:115px;" src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/logop.png">
+                            </a>    
+                            <a href="https://www.rindecuentas.org/" target="_blank">
+                                <img src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/rindecuentas.svg" style="width:100%;max-height:20.141px;margin-left: 10px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.quienesquien.wiki/" target="_blank">
+                                <img src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/quienesquien.svg">
+                            </a>
+                            <a href="https://mexicoleaks.mx/enviar-para.php?r=poder" target="_blank">
+                                <img src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/mexicoleaks.svg">
+                            </a>                            
+                            <a href="https://leaks.pe/" target="_blank">
+                                <img class="peru" src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/peruleaks.svg">
+                            </a>    
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fa fa-bars"></i>
+            </span>
+            <a href="#" class="logo">logo</a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="#" class="nav-links">Item</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Item</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Item</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Item</a>
+                </li>
+            </ul>
+        </nav>
     </header>
+
   {% block content %}
 
 
   {% endblock %}
+  <script type="text/javascript" src="/js/flujosilicitos.js"></script>
 </body>
 </html>
 </html>

@@ -40,9 +40,11 @@ app.use(require('body-parser').json({
     limit: '5mb'
 }));
 
+// Routes
 app.get('/', homeController.index);
 
-app.get('/about', aboutController.index);
+app.get('/about', aboutController.index)
+
 
 app.use(express.static(__dirname + '/web'));
 
