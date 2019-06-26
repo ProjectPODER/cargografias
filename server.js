@@ -7,6 +7,9 @@ var fichasController = require('./controllers/fichas.js')
 var embedController = require('./controllers/embed.js')
 var aboutController = require('./controllers/about.js')
 var homeController = require('./controllers/home.js')
+var coahuilaController = require('./controllers/coahuila.js')
+var veracruzController = require('./controllers/veracruz.js')
+var datosController = require('./controllers/datos.js')
 
 var conn = require('./db.js');
 
@@ -43,7 +46,10 @@ app.use(require('body-parser').json({
 // Routes
 app.get('/', homeController.index);
 
-app.get('/about', aboutController.index)
+app.get('/about', aboutController.index);
+app.get('/coahuila', coahuilaController.index)
+app.get('/veracruz', veracruzController.index)
+app.get('/datos', datosController.index)
 
 
 app.use(express.static(__dirname + '/web'));

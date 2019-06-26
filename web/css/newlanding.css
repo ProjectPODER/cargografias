@@ -1,4 +1,4 @@
-html,body {
+/*html,body {
 height: 100%;
 }
 body{
@@ -11,7 +11,7 @@ body{
   height: 100%;
 }
 #home-1{
-  flex: 1;
+  flex: 1 0 auto;
   text-align: center;
 }
 #home-1 p{
@@ -147,3 +147,4 @@ and (max-device-width : 667px)  {
     color: #ffffff;
   }
 }
+*/

@@ -15,13 +15,14 @@
     <link href="/favicon.ico" type="image/x-icon" rel="icon" />
     <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Roboto:400,700&display=swap" rel="stylesheet"> 
     
     <!-- V3 Styles -->
 
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/new-timeline.css" type="text/css">
     <!-- V4 Styles -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="/css/flexboxgrid.min.css" type="text/css">
     
     <!-- <link rel="stylesheet" href="/css/cargo-base.css" type="text/css"> -->
@@ -90,11 +91,48 @@
             </div>
         </div>
     </header>
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="#" class="logo">FLUJOS ILÍCITOS</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="/" class="nav-links">Inicio</a>
+            </li>
+            <li>
+                <a href="/coahuila" class="nav-links">Coahuila</a>
+            </li>
+            <li>
+                <a href="/veracruz" class="nav-links">Veracruz</a>
+            </li>
+            <li>
+                <a href="/datos" class="nav-links">Datos</a>
+            </li>
+        </ul>
+    </nav>
 
   {% block content %}
-
+    
 
   {% endblock %}
+    
+    <footer>
+      <div class="row footer center-md center-xs">
+        <div class="col-xs-12
+              col-sm-12
+              col-md-12
+              col-lg-12
+              column-1">
+            <p>Con el apoyo de</p>
+           
+            <a href="#"><img src="/img/logos/osf.png" alt="Open Society Fundations"></a>
+        
+            <a href="#"><img src="/img/logos/empower.png" alt="Empower"></a>
+        </div>
+      </div>
+    </footer>
+    
   <script type="text/javascript" src="/js/flujosilicitos.js"></script>
 </body>
 </html>
