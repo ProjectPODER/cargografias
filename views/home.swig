@@ -1,123 +1,68 @@
-{% extends 'clean-layout.html' %}
+{% extends 'layout.html' %}
 
 {% block title %}
-Cargografías
+Flujos ilícitos
 {% endblock %}
 
 {% block head %}
   {% parent %}
 
-
-  <link rel="stylesheet" href="css/normalize.css" type="text/css">
-  <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
-  <link rel="stylesheet" href="css/newlanding.css" type="text/css">
-
-
-
 {% endblock %}
 
 {% block content %}
 
-<div id="home-container" class="">
-  <div id="home-1" class="">
-  <div class="row">
-    <div class="col-xs-12
-          col-sm-12
-          col-md-12
-          col-lg-12
-          logotype">
-        <div><img src="/img/v2/logo.png" alt=""></div>
-        <p class="choise-place">Seleccionar instancia:</p>
+<section id="home-container">
+  <div class="container text-center">
+    <div id="home-1">
+      <div class="row">
+        <div class="col-xs-12
+              col-sm-12
+              col-md-12
+              col-lg-12">
+            <h1>LA PISTA DEL DINERO: <br>FLUJOS FINANCIEROS Y VIOLENCIA EN MÉXICO</h1>
+            <p class="main-text">Este proyecto forma parte de un esfuerzo por analizar las dimensiones financieras y económicas de la violencia en México. Inició como una colaboración con organizaciones de derechos humanos en México que acompañan a víctimas de graves crímenes, particularmente a familias de víctimas de desaparición forzada en Coahuila y Veracruz.</p>
+            <p class="choise-place">Haz click en las siguientes imágenes para entrar a la sección dedicada a cada estado. </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+          <a href="/coahuila">
+            <div class="hovereffect">
+              <img class="img-responsive" src="/img/coahuila.png" alt="">
+              <div class="overlay">
+                <h2>COAHUILA</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+          <a href="/coahuila">
+            <div class="hovereffect">
+              <img class="img-responsive" src="/img/veracruz.png" alt="">
+              <div class="overlay">
+                <h2>VERACRUZ</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-
-  <div class="row ">
-    <div class="col-xs-12
-            col-sm-12
-            col-md-12
-            col-lg-12
-            choise-places">
-        <ul>
-            <li>
-                <a href="/cargografias"><img src="/img/v2/argentina.png" alt="">
-                    <br>Argentina</a>
-            </li>
-            <li>
-                <a href="/brasil"><img src="/img/v2/brazil.png" alt="">
-                    <br>Brasil</a>
-            </li>
-            <li>
-                <a href="/uruguay"><img src="/img/v2/uruguay.png" alt="">
-                    <br>Uruguay</a>
-            </li>
-
-            <li>
-                <a href="/paraguay"><img src="/img/v2/paraguay.png" alt="">
-                    <br>Paraguay</a>
-            </li>
-        </ul>
-    </div>
-    <div class="col-xs-12 text">
-    <p>Cargografías es una línea de tiempo que muestra los cargos públicos que tuvo cada funcionario a lo largo de su vida. </p>
-    <div class="about-us">
-      <img src="/img/v2/about.png" alt="">
-      <a target="_blank" href="https://medium.com/@Cargografias/como-nace-cargografias-e82510388040">ACERCA DE </a>
-    </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>ANTECEDENTES</h3>
+        <p>Administraciones estatales pasadas tanto en Coahuila como en Veracruz han sido fuertemente señaladas no sólo por los multimillonarios desvíos de recursos públicos, sino también por indicios de colusión con organizaciones criminales y el aumento de graves violaciones a derechos humanos a manos de las fuerzas de seguridad del estado, muchas de estas por parte de fuerzas especiales en coordinación con fuerzas de seguridad federales.</p>
+        <p>Aquí argumentamos que la lucha por el control de territorios (criminales), y la extracción de rentas de recursos naturales, va de la mano con la privatización del uso de la violencia para fines económicos, políticos y sociales. En estos territorios en disputa, la sociedad se enfrenta a procesos de despojo y exterminio, de hostigamiento y persecución, de precarización, de contaminación del medio ambiente, y, en general, a crecientes barreras al ejercicio pleno del derecho a la participación política y a la libre determinación.</p>
+        <p>Es decir, la violencia en un marco de inseguridad es privatizada por diversos actores (funcionarios públicos, crimen organizado, empresas, élites locales) e instrumentalizada para el control territorial y social. Mientras tanto, la debilidad institucional, o la impunidad institucionalizada, garantiza la continuidad de un sistema quebrado para muchos, pero altamente funcional para quienes se benefician de él.</p>
+        <h3>NOTA METODOLÓGICA</h3>
+        <p>La visualización de las conexiones entre actores se basa principalmente en datos obtenidos del Registro de servidores públicos (Declaranet), el Sistema Integral de Gestión Registral (SIGER 2.0) y del Sistema Integral del Registro Público del Estado de Coahuila (SIRP). Relaciones familiares fueron obtenidas de fuentes públicas, y no pueden ser plenamente confirmas sin tener acceso al registro público civil.</p>
+      </div>
     </div>
   </div>
-  </div>
-
-<!-- <div ng-view></div> -->
-
-
-<div class="row footer">
-  <div class="col-xs-12
-        col-sm-12
-        col-md-4
-        col-lg-4
-        column-1">
-      <ul>
-
-          <li>
-              <a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Flocalhost%3A3000%2F&region=follow_link&screen_name=Cargografias&tw_p=followbutton&variant=2.0" target="_blank"><img src="/img/v2/twitter.png" alt=""></a>
-          </li>
-          <li>
-              <a href="https://github.com/cargografias" target="_blank"><img src="/img/v2/github.png" alt=""></a>
-          </li>
-          <li>
-              <a href="https://docs.google.com/forms/d/1NoOYENvhHXqpLO3WpB8l6R8ofJkJiShLlx2A_DfrNd0/viewform?embedded=true&amp;hl=es" target="_blank"><img src="/img/v2/mail.png" alt=""></a>
-          </li>
-      </ul>
-  </div>
-
-  <div class="col-xs-12
-        col-sm-12
-        col-md-4
-        col-lg-4
-        column-2">
-      <ul>
-          <li>
-              <a href="#"><img src="/img/v2/icon1.png" alt=""></a>
-          </li>
-          <li>
-              <a href="#"><img src="/img/v2/icon2.png" alt=""></a>
-          </li>
-          <li>
-              <a href="#"><img src="/img/v2/icon3.png" alt=""></a>
-          </li>
-      </ul>
-  </div>
-  <div class="col-xs-12
-        col-sm-12
-        col-md-4
-        col-lg-4
-        column-3">
-      <a href="https://docs.google.com/forms/d/1NoOYENvhHXqpLO3WpB8l6R8ofJkJiShLlx2A_DfrNd0/viewform?embedded=true&amp;hl=es" target="_blank"><img src="/img/v2/icon4.png" alt="">
-          <p>AYUDANOS A MEJORAR</p>
-      </a>
-  </div>
-</div>
-</div>
+</section>
 
 <script>
   new WOW().init();
