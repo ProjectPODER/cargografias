@@ -93,7 +93,7 @@
         <script>
             window.__config = {
                 baseStaticPath: '{{config.baseStaticPath}}',
-                lastUpdate: {{0 ? 0 | lastUpdate}} 
+                lastUpdate: {{0 ? 0 | lastUpdate}}
             }
         </script>
 
@@ -166,7 +166,7 @@
         {# <script src="/angular/factories/presetsFactory.js"></script> #}
 
         {# VISUALIZATIONS #}
-        <script src="/angular/Visualizations/v1/controller.js"></script>
+        <script src="/angular/visualizations/v1/controller.js"></script>
 
         <!--Import jQuery before materialize.js-->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
