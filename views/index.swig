@@ -57,6 +57,9 @@
         <link rel="stylesheet" href="/css/flexboxgrid.min.css" type="text/css">
         <link rel="stylesheet" href="/css/nuevo-cargo-base.css" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Roboto:400,700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/css/flujosilicitos.css" type="text/css">
+
 
         <!-- V2 Libs -->
         <script type="text/javascript" src="/js/lib/jquery-2.0.0.min.js"></script>
@@ -171,6 +174,7 @@
         <!--Import jQuery before materialize.js-->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="/bower_components/materialize/dist/js/materialize.min.js"></script>
+        <script type="text/javascript" src="/js/flujosilicitos.js"></script>
     </body>
 
 </body>
