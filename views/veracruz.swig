@@ -16,7 +16,7 @@ Veracruz | Flujos ilícitos
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="sidenav-container">
-                        <div class="sidenav">
+                        <nav class="sidenav">
                             <h3>Veracruz</h3>
                             <ul>
                                 <li><a href="#introduccion">Introducción</a></li>
@@ -26,7 +26,7 @@ Veracruz | Flujos ilícitos
                                 <li><a href="#huachicol">2015 a la actualidad: Robo de combustible y control territorial</a></li>
                             </ul>
                             
-                        </div>
+                        </nav>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">

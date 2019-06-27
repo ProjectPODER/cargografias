@@ -369,6 +369,9 @@ a:hover {
 .p-link{
     text-align: right;
 }
+.img-state{
+    margin: 40px 0;
+}
 /*Footer*/
 footer {
     background: #0A314E;

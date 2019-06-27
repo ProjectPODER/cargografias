@@ -1,13 +1,13 @@
-<div class="module">
+<!-- <div class="module">
 	<div class="col-xs-12
 			col-sm-12
 			col-md-12
 			col-lg-12
 			search-bar">
 		<div class="search-bar-1">
-				<a id="logotype" href="/"><img src="/img/v2/logo.png" alt=""></a>
+				<a id="logotype" href="/"><img src="/img/v2/logo.png" alt=""></a> -->
 				<!-- <img id="place" src="/img/v2/argentina.png" alt=""> -->
-				<h3>
+				<!-- <h3>
 					{{customization.siteTitle ? customization.siteTitle : 'Cargografias'}}
 				</h3>
 		</div>
@@ -16,7 +16,56 @@
 			<a href="/"><img src="/img/v2/about2.png" alt="">ACERCA DE</a>
 		</div>
 	</div>
-</div>
+</div> -->
+<header>
+    <div  class="row header">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="box">
+                <ul class="logos">
+                    <li>
+                        <a href="http://projectpoder.org/es/" target="_blank">
+                            <img style="width:115px;" src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/logop.png">
+                        </a>    
+                        <a href="https://www.rindecuentas.org/" target="_blank">
+                            <img src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/rindecuentas.svg" style="width:100%;max-height:20.141px;margin-left: 10px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.quienesquien.wiki/" target="_blank">
+                            <img src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/quienesquien.svg">
+                        </a>
+                        <a href="https://mexicoleaks.mx/enviar-para.php?r=poder" target="_blank">
+                            <img src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/mexicoleaks.svg">
+                        </a>                            
+                        <a href="https://leaks.pe/" target="_blank">
+                            <img class="peru" src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/peruleaks.svg">
+                        </a>    
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fa fa-bars"></i>
+    </span>
+    <a href="#" class="logo">FLUJOS ILÍCITOS</a>
+    <ul class="main-nav" id="js-menu">
+        <li>
+            <a href="/" class="nav-links">Inicio</a>
+        </li>
+        <li>
+            <a href="/coahuila" class="nav-links">Coahuila</a>
+        </li>
+        <li>
+            <a href="/veracruz" class="nav-links">Veracruz</a>
+        </li>
+        <li>
+            <a href="/cargografias" class="nav-links">Datos</a>
+        </li>
+    </ul>
+</nav>
 <div ng-controller="loaderController"  ng-include="'/angular/partials/loader.html'">
 </div>
 <div ng-show="ready" style="flex:1">
