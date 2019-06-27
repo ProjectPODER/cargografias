@@ -174,7 +174,6 @@
         <!--Import jQuery before materialize.js-->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="/bower_components/materialize/dist/js/materialize.min.js"></script>
-        <script type="text/javascript" src="/js/flujosilicitos.js"></script>
     </body>
 
 </body>
