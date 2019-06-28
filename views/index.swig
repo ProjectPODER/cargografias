@@ -16,7 +16,7 @@
         <meta name="robots" content="Index, All">
         <meta name="robots" content="Index, Follow">
         <meta name="revisit-after" content="10 days">
-        <link rel="shortcut icon" href="//www.cargografias.org/favicon.ico" type="image/x-icon">
+        {# <link rel="shortcut icon" href="//www.cargografias.ofavicon.ico" type="image/x-icon"> #}
         <meta property="fb:page_id" content="">
         <meta property="og:image" content="http://www.cargografias.org/img/pics/cargo.png">
         <meta property="og:description" content="Cargograf&#237as es una linea de tiempo que muestra los cargos publicos que tuvo cada funcionario a lo largo de su vida. Entra y arma tu comparacion.">
@@ -34,8 +34,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <link href="/favicon.ico" type="image/x-icon" rel="icon"/>
-        <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+        <link href="/favicon.png" type="image/png" rel="icon" />
+        <link href="/favicon.png" type="image/png" rel="shortcut icon" />
 
         <link href='//fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
@@ -114,7 +114,7 @@
                 m.parentNode.insertBefore(a, m)
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-            ga('create', 'UA-8208559-4', 'auto');
+            ga('create', '', 'auto');
             ga('send', 'pageview');
         </script>
 
