@@ -21,7 +21,6 @@ Icon?
 ehthumbs.db
 Thumbs.db
 npm-debug.log
-static-public/**/*
 **/*.swp
 
 # other dataousrces non compressed#
