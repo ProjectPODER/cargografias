@@ -21,16 +21,13 @@ Icon?
 ehthumbs.db
 Thumbs.db
 npm-debug.log
-static-public/datasets/*.json
 static-public/**/*
 **/*.swp
 
-# other dataousrces non compressed# 
+# other dataousrces non compressed#
 ###################################
 
 /web/js/datasets/*.json
 /web/js/datasets/gz/*.json
 /web/version.txt
 .env
-
-
