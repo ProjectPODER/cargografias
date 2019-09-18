@@ -27,6 +27,9 @@ h2{
 h3{
     font-size: 30px;
 }
+#deleteAllButton h4 {
+    color: #fff;
+}
 p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -369,16 +372,25 @@ a:hover {
 .p-link{
     text-align: right;
 }
+.img-state{
+    margin: 40px 0;
+}
 /*Footer*/
 footer {
     background: #0A314E;
     padding: 40px 20px;
+}
+.footer {
+    background: #0A314E !important;
+    padding: 0 !important;
 }
 .footer p {
     color: #5BA5B8;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 14px;
+    background: #0A314E !important;
+    padding: 0 !important;
 }
 .footer img {
     height: 40px;

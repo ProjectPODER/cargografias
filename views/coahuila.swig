@@ -19,11 +19,11 @@ Coahuila | Flujos ilícitos
                         <div class="sidenav">
                             <h3>Coahuila</h3>
                             <ul>
-                                <li><a class="anchor" href="#introduccion">Introducción</a></li>
+                                <li><a href="#introduccion">Introducción</a></li>
                                 <li><a href="#techo">El techo de cristal de la impunidad</a></li>
-                                <li><a class="anchor" href="#desvio">Desvío y deuda</a></li>
+                                <li><a href="#desvio">Desvío y deuda</a></li>
                                 <li><a href="#colusion">Colusión: Poder político, poder económico</a></li>
-                                <li><a class="anchor" href="#operadores">Operadores financieros de grupos criminales armados</a></li>
+                                <li><a href="#operadores">Operadores financieros de grupos criminales armados</a></li>
                             </ul>
 
                         </div>
@@ -48,20 +48,11 @@ Coahuila | Flujos ilícitos
                             <p>En la lucha por justicia ante graves violaciones de derechos humanos en México, las víctimas comúnmente se enfrentan a un techo de impunidad. Más allá de los problemas en el sistema de justicia mexicano y la incapacidad para la investigación de delitos, la adjudicación de responsabilidad en los procesos de justicia se enfocan en los perpetradores directos y pocas veces llegan a vincular a los autores materiales, o bien a aquellos que dan apoyo material a los perpetradores. </p>
                             <p>En Coahuila, la sociedad civil organizada se ha enfrentado a procesos similares. Por una parte, el mismo partido político ha controlado el gobierno del estado desde 1941. Personas clave (todas afiliadas al PRI) han saltado de un puesto clave a otro puesto clave dentro del gobierno estatal durante las últimas cuatro administraciones. Así mismo, funcionarios públicos han sido exonerados por el mismo gobierno estatal a pesar de haber sido investigados por cometer importantes infracciones o actos ilícitos.</p>
                             <p>La siguiente herramienta permite rastrear la trayectoria política y administrativa de funcionarios públicos clave desde 2005, año en que inició la administración de Humberto Moreira Valdés.</p>
-                            <div class="resp-container">
-                            <iframe src="https://flujosilicitos.colaboratorio.org/cargografias#/name-591757189871-606251979264-622751967345-666403503344-312450434840-515239130449-119797924356" width="1100" height="700" id="iframe-segob"  frameborder="0"></iframe>
-                            <script type="text/javascript">
-                              $(function() {
-                              $("#iframe-segob").load(function() {
-                                setTimeout(function() {
-                                console.log($("#iframe-segob").height());
-                                $("#iframe-segob").height($("#iframe-segob").height()+1);
-                                console.log($("#iframe-segob").height());
-                                },3000);
-                              })
-                            });
-                            </script>
+                            {# <div class="resp-container">
                                 [iframe cargografías o imagen estática - instancia Secretaría de Gobierno]
+                            </div> #}
+                            <div class="img-state">
+                                <img class="img-responsive" src="/img/gobierno.png" alt="Secretaría de Gobierno">
                             </div>
                             <p>La herramienta anterior también permite identificar cuáles han sido los puestos claves dentro de la administración pública estatal, y quiénes han ocupado esos puestos. El gobierno de Humberto Moreira introdujo importantes reformas en la administración pública del Estado, muchas ideadas y promovidas desde la Secretaría de Gobierno. Dos de las más cambios más importantes se relacionaron con la estructura estatal de provisión de seguridad y procuración de justicia; y del aparato de recaudación de rentas y de administración del presupuesto del estado. </p>
                             <p>El papel de la Secretaría de Gobierno en esta reconfiguración y rediseño fue elemental. En ese sentido, hubo cierta continuidad durante el periodo 2005-2016. Armando Luna Canales, originario de Saltillo, ocupó el puesto en dos ocasiones, la primera con Humberto Moreira entre 2008 y 2011, y la segunda con Rubén Moreira entre 2012 y 2015. </p>
@@ -75,8 +66,11 @@ Coahuila | Flujos ilícitos
                         <div class="col-md-12 col-sm-12 col-xs-12 mb-3">
                             <h2>Desvío y deuda</h2>
                             <p>Como parte de las reformas a la administración pública del estado, en el 2010 se creó el organismo público descentralizado llamado Sistema de Administración Tributaria del Estado de Coahuila (SATEC), el cual obtuvo amplias facultades de recaudación y contratación de deuda. Este organismo fue altamente controversial por su papel en la contratación de deuda del estado, y por la participación de varios de sus funcionarios en esquemas fraudulentos para la apropiación de recursos públicos. Esta red se centró en Héctor Javier Villarreal Hernández y Jorge Juan Torres López —ambos detenidos y llevando juicios en Estados Unidos por apropiación de fondos públicos y lavado de dinero— pero involucró también a otros funcionarios clave dentro de la Secretaría de Finanzas de Coahuila, la Comisión Estatal de Aguas y Saneamiento (CEAS), y la Secretaría de Haciendo y Crédito Público (SCHP) del Gobierno Federal. El organismo desapareció en los primeros meses del gobierno de Rubén Moreira. </p>
-                            <div class="resp-container">
+                            {# <div class="resp-container">
                                 [iframe cargografías o imagen estática - instancia Secretaría de Finanzas y SATEC]
+                            </div> #}
+                            <div class="img-state">
+                                <img class="img-responsive" src="/img/finanzas.png" alt="Secretaría de Finanzas">
                             </div>
                             <p>Tanto Javier Villarreal como Jorge Torres López involucraron también a familiares y otras personas de confianza en sus empresas, como se puede ver en el siguiente diagrama.</p>
                             <div class="resp-container">

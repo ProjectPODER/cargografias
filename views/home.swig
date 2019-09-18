@@ -66,7 +66,7 @@ Flujos ilícitos
   </div>
 </section>
 
-<script>
+{# <script>
   new WOW().init();
-  </script>
+  </script> #}
 {% endblock %}
