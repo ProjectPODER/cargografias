@@ -149,6 +149,7 @@ angular.module('cargoApp.controllers')
 
     var onDataLoaded = function() {
           //Load initial ids from the url
+          console.log($location.search().iframe);
           if ($routeParams.ids) {
             $scope.showVisualizationFunction()
             processParameters($routeParams.ids);

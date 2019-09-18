@@ -6,7 +6,7 @@ Coahuila | Flujos ilícitos
 
 {% block head %}
   {% parent %}
- 
+
 {% endblock %}
 
 {% block content %}
@@ -25,7 +25,7 @@ Coahuila | Flujos ilícitos
                                 <li><a href="#colusion">Colusión: Poder político, poder económico</a></li>
                                 <li><a class="anchor" href="#operadores">Operadores financieros de grupos criminales armados</a></li>
                             </ul>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -49,13 +49,25 @@ Coahuila | Flujos ilícitos
                             <p>En Coahuila, la sociedad civil organizada se ha enfrentado a procesos similares. Por una parte, el mismo partido político ha controlado el gobierno del estado desde 1941. Personas clave (todas afiliadas al PRI) han saltado de un puesto clave a otro puesto clave dentro del gobierno estatal durante las últimas cuatro administraciones. Así mismo, funcionarios públicos han sido exonerados por el mismo gobierno estatal a pesar de haber sido investigados por cometer importantes infracciones o actos ilícitos.</p>
                             <p>La siguiente herramienta permite rastrear la trayectoria política y administrativa de funcionarios públicos clave desde 2005, año en que inició la administración de Humberto Moreira Valdés.</p>
                             <div class="resp-container">
+                            <iframe src="https://flujosilicitos.colaboratorio.org/cargografias#/name-591757189871-606251979264-622751967345-666403503344-312450434840-515239130449-119797924356" width="1100" height="700" id="iframe-segob"  frameborder="0"></iframe>
+                            <script type="text/javascript">
+                              $(function() {
+                              $("#iframe-segob").load(function() {
+                                setTimeout(function() {
+                                console.log($("#iframe-segob").height());
+                                $("#iframe-segob").height($("#iframe-segob").height()+1);
+                                console.log($("#iframe-segob").height());
+                                },3000);
+                              })
+                            });
+                            </script>
                                 [iframe cargografías o imagen estática - instancia Secretaría de Gobierno]
                             </div>
                             <p>La herramienta anterior también permite identificar cuáles han sido los puestos claves dentro de la administración pública estatal, y quiénes han ocupado esos puestos. El gobierno de Humberto Moreira introdujo importantes reformas en la administración pública del Estado, muchas ideadas y promovidas desde la Secretaría de Gobierno. Dos de las más cambios más importantes se relacionaron con la estructura estatal de provisión de seguridad y procuración de justicia; y del aparato de recaudación de rentas y de administración del presupuesto del estado. </p>
                             <p>El papel de la Secretaría de Gobierno en esta reconfiguración y rediseño fue elemental. En ese sentido, hubo cierta continuidad durante el periodo 2005-2016. Armando Luna Canales, originario de Saltillo, ocupó el puesto en dos ocasiones, la primera con Humberto Moreira entre 2008 y 2011, y la segunda con Rubén Moreira entre 2012 y 2015. </p>
                             <p>La trayectoria profesional de Luna Canales también se ha desarrollado en el sector privado, tal como confirma su declaración patrimonial y búsquedas en el SIGER. En el año 2008, Luna Canales obtuvo una patente para fungir como <a href="http://periodico.sfpcoahuila.gob.mx/modulo_versumariocompleto.asp?Id_Sumario=4236" target="_blank">notario público</a>. El siguiente diagrama muestra tanto los intereses comerciales de él y su familia, como las empresas que dio de alta en su capacidad de notario. </p>
                             <div class="resp-container">
-                                <iframe class="resp-iframe" src="https://embed.kumu.io/5b32b687466deb2422b6049857a4d210" frameborder="0"></iframe>
+                                <!-- <iframe class="resp-iframe" src="https://embed.kumu.io/5b32b687466deb2422b6049857a4d210" frameborder="0"></iframe> -->
                             </div>
                         </div>
                     </div>
@@ -78,7 +90,7 @@ Coahuila | Flujos ilícitos
                             <h2>Colusión: Poder político, poder económico</h2>
                             <p>La red de intereses comerciales mapeada a través de información del SIGER comprueba que existe una falsa separación entre el poder político y el poder económico en Coahuila (aunque el ejercicio se podría replicar a nivel nacional). Al contrario, poder político muchas veces antecede y es el origen de poder económico. Un claro ejemplo, ampliamente documentado, es el de la transferencia de concesiones de radiodifusión a funcionarios públicos. Esta red —que abarca empresas y propiedades basadas en México y en EE.UU.— se centra en los hermanos González Treviño, Rolando Ramiro y Roberto Casimiro, y Vicente Chaires Yáñez. </p>
                             <div class="resp-container">
-                                <iframe class="resp-iframe" src="https://embed.kumu.io/46a69743e9e565ba618a3ea71fe68ea3" frameborder="0"></iframe>
+                                <!-- <iframe class="resp-iframe" src="https://embed.kumu.io/46a69743e9e565ba618a3ea71fe68ea3" frameborder="0"></iframe> -->
                             </div>
                         </div>
                     </div>
@@ -88,7 +100,7 @@ Coahuila | Flujos ilícitos
                             <p>El uso de empresas y sociedades le da acceso al sistema financiero a actores criminales y les permite esconder flujos ilícitos. En marzo de 2016, Juan Manuel Muñoz Luevano fue detenido en España, para ser extraditado a EE.UU. tres años después. Muñoz ha sido señalado de ser operador financiero de varios grupos del crimen organizado, particularmente los Zetas. En mayo de 2019, se <a href="https://www.proceso.com.mx/584978/el-mono-munoz-se-declara-culpable-y-sera-informante-de-eu-contra-moreira" target="_blank">declaró culpable</a> ante un juez de distrito en San Antonio, Texas por el delito de conspiración para el lavado de dinero. </p>
                             <p>Desde su detención, varios funcionarios públicos han sido señalados por medios de comunicación y otras fuentes de tener vínculos con Muñoz y sus empresas. El siguiente diagrama mapea los vínculos que se pudieron comprobar a través del SIGER y el SIRP.</p>
                             <div class="resp-container">
-                                <iframe class="resp-iframe" src="https://embed.kumu.io/ad1869c72d86752e3183dada8e812068" frameborder="0"></iframe>
+                                <!-- <iframe class="resp-iframe" src="https://embed.kumu.io/ad1869c72d86752e3183dada8e812068" frameborder="0"></iframe> -->
                             </div>
                             <p>El alcance de la red es significativo. Analizar los intereses comerciales de Muñoz, además, permite identificar a otros operadores clave dentro de la red de empresas de gasolineras en Coahuila como, por ejemplo, a Gustavo Adolfo Fuentes Yañez y a Victor Manuel Rodríguez Saenz. </p>
                             <p>Es importante señalar el papel elemental que tienen los notarios dentro de estas redes macrocriminales. En México, la responsabilidad de validar la información contenida en el Registro Público del Comercio (RPC) recae sobre los notarios. Actores criminales (tanto armados como no armados) suelen utilizar redes de notarios para velar su control sobre empresas u otros vehículos comerciales, y así ocultar flujos ilícitos. Empresas y propiedades son traspasadas con su complicidad.</p>
