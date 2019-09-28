@@ -32,8 +32,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }, {
     "id": 578152457822,
@@ -63,8 +63,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 170048389383,
@@ -94,8 +94,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 529826192461,
@@ -130,10 +130,11 @@
       "quality": ""
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
+  
 }, {
   "name": "HUMBERTO TORRES CHARLES",
   "family_name": "TORRES CHARLES",
@@ -163,8 +164,8 @@
     "end_date": "2011-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -230,8 +231,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "TORREON, ",
-      "name": "TORREON, "
+      "id": "TORREON ",
+      "name": "TORREON "
     }
   }]
 }, {
@@ -272,8 +273,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -305,8 +306,8 @@
     "end_date": "2005-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "CASTAÑOS, ",
-      "name": "CASTAÑOS, "
+      "id": "CASTAÑOS ",
+      "name": "CASTAÑOS "
     }
   }, {
     "id": 278204514297,
@@ -335,8 +336,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -378,8 +379,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -411,8 +412,8 @@
     "end_date": "2019-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 315809593313,
@@ -436,8 +437,8 @@
     "end_date": "2017-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 751916970340,
@@ -461,8 +462,8 @@
     "end_date": "2014-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -499,8 +500,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 789927747976,
@@ -529,8 +530,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -566,8 +567,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "TORREON, ",
-      "name": "TORREON, "
+      "id": "TORREON ",
+      "name": "TORREON "
     }
   }]
 }, {
@@ -599,8 +600,8 @@
     "end_date": "2007-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 910710672025,
@@ -624,8 +625,8 @@
     "end_date": "2011-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 229802773221,
@@ -649,8 +650,8 @@
     "end_date": "2010-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 674466559372,
@@ -674,8 +675,8 @@
     "end_date": "2014-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 292223982749,
@@ -699,8 +700,8 @@
     "end_date": "2017-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -732,8 +733,8 @@
     "end_date": "2010-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 470558966722,
@@ -757,8 +758,8 @@
     "end_date": "2011-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }]
 }, {
@@ -789,8 +790,8 @@
     "end_date": "2019-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "TORREON, ",
-      "name": "TORREON, "
+      "id": "TORREON ",
+      "name": "TORREON "
     }
   }]
 }, {
@@ -822,8 +823,8 @@
     "end_date": "2014-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 285084208164,
@@ -847,8 +848,8 @@
     "end_date": "2015-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 664789746439,
@@ -872,8 +873,8 @@
     "end_date": "2010-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 397336158051,
@@ -897,8 +898,8 @@
     "end_date": "2008-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 197032204120,
@@ -922,8 +923,8 @@
     "end_date": "2018-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 679735437167,
@@ -947,8 +948,8 @@
     "end_date": "2010-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 377054741967,
@@ -972,8 +973,8 @@
     "end_date": "2008-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -1010,8 +1011,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 448325473988,
@@ -1035,8 +1036,8 @@
     "end_date": "2007-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 660970452268,
@@ -1060,8 +1061,8 @@
     "end_date": "2012-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 209835301527,
@@ -1084,8 +1085,8 @@
     "start_date": "2017-12-10",
     "start_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 689613078249,
@@ -1109,8 +1110,8 @@
     "end_date": "2019-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 706544067977,
@@ -1134,8 +1135,8 @@
     "end_date": "2010-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -1178,8 +1179,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 879293463054,
@@ -1214,8 +1215,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 674121745901,
@@ -1250,8 +1251,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }, {
     "id": 759838930804,
@@ -1284,8 +1285,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }, {
     "id": 986379520996,
@@ -1309,8 +1310,8 @@
     "end_date": "2018-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }, {
     "id": 340175089572,
@@ -1345,8 +1346,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -1413,8 +1414,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 192372726381,
@@ -1444,8 +1445,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 782700913770,
@@ -1480,8 +1481,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 504676849323,
@@ -1515,8 +1516,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 597346836102,
@@ -1549,8 +1550,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }, {
     "id": 338696978653,
@@ -1585,8 +1586,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -1618,8 +1619,8 @@
     "end_date": "2010-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 917590584851,
@@ -1642,8 +1643,8 @@
     "end_date": "2007-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 164078873556,
@@ -1667,8 +1668,8 @@
     "end_date": "2009-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 818616287867,
@@ -1692,8 +1693,8 @@
     "end_date": "2005-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "SALTILLO, ",
-      "name": "SALTILLO, "
+      "id": "SALTILLO ",
+      "name": "SALTILLO "
     }
   }, {
     "id": 583752240233,
@@ -1717,8 +1718,8 @@
     "end_date": "2011-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -1755,8 +1756,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 473850335088,
@@ -1785,8 +1786,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 328337204835,
@@ -1815,8 +1816,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 106793183669,
@@ -1851,8 +1852,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 307953399557,
@@ -1882,8 +1883,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -1915,8 +1916,8 @@
     "end_date": "2011-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 750507697693,
@@ -1951,8 +1952,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -1984,8 +1985,8 @@
     "end_date": "2018-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 715758326462,
@@ -2009,8 +2010,8 @@
     "end_date": "2014-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 238685839935,
@@ -2034,8 +2035,8 @@
     "end_date": "2011-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 456903247670,
@@ -2059,8 +2060,8 @@
     "end_date": "2013-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 417023421745,
@@ -2084,8 +2085,8 @@
     "end_date": "2005-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 877810760451,
@@ -2109,8 +2110,8 @@
     "end_date": "2005-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "SALTILLO, ",
-      "name": "SALTILLO, "
+      "id": "SALTILLO ",
+      "name": "SALTILLO "
     }
   }]
 }, {
@@ -2142,8 +2143,8 @@
     "end_date": "2005-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -2181,8 +2182,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 820617858064,
@@ -2212,8 +2213,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 836754021972,
@@ -2237,8 +2238,8 @@
     "end_date": "2009-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 957109245273,
@@ -2266,8 +2267,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "FEDERACION, ",
-      "name": "FEDERACION, "
+      "id": "FEDERACION ",
+      "name": "FEDERACION "
     }
   }]
 }, {
@@ -2310,8 +2311,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 552001642604,
@@ -2346,8 +2347,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 156035770753,
@@ -2371,8 +2372,8 @@
     "end_date": "2007-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 415655494825,
@@ -2407,8 +2408,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }, {
     "id": 956705253858,
@@ -2443,8 +2444,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }]
 }, {
@@ -2476,8 +2477,8 @@
     "end_date": "2011-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }, {
     "id": 844994043913,
@@ -2499,8 +2500,8 @@
     "start_date": "2003-01-01",
     "end_date": "2005-06-15",
     "area": {
-      "id": "SALTILLO, ",
-      "name": "SALTILLO, "
+      "id": "SALTILLO ",
+      "name": "SALTILLO "
     }
   }, {
     "id": 649766317060,
@@ -2524,8 +2525,8 @@
     "end_date": "2011-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 933986889907,
@@ -2549,8 +2550,8 @@
     "end_date": "2002-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -2591,8 +2592,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -2624,8 +2625,8 @@
     "end_date": "2009-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "TORREON, ",
-      "name": "TORREON, "
+      "id": "TORREON ",
+      "name": "TORREON "
     }
   }, {
     "id": 606442840354,
@@ -2649,8 +2650,8 @@
     "end_date": "2006-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 637827512046,
@@ -2674,8 +2675,8 @@
     "end_date": "2005-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "SALTILLO, ",
-      "name": "SALTILLO, "
+      "id": "SALTILLO ",
+      "name": "SALTILLO "
     }
   }, {
     "id": 508113365995,
@@ -2699,8 +2700,8 @@
     "end_date": "2012-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 256178630315,
@@ -2724,8 +2725,8 @@
     "end_date": "2011-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -2768,8 +2769,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 440846679364,
@@ -2804,8 +2805,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "SALTILLO, ",
-      "name": "SALTILLO, "
+      "id": "SALTILLO ",
+      "name": "SALTILLO "
     }
   }, {
     "id": 651338502467,
@@ -2840,8 +2841,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 180069150915,
@@ -2876,8 +2877,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "SALTILLO, ",
-      "name": "SALTILLO, "
+      "id": "SALTILLO ",
+      "name": "SALTILLO "
     }
   }, {
     "id": 694802205760,
@@ -2912,8 +2913,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }, {
     "id": 965028475331,
@@ -2946,8 +2947,8 @@
       "quality": "oficial"
     }],
     "area": {
-      "id": "FEDERAL, ",
-      "name": "FEDERAL, "
+      "id": "FEDERAL ",
+      "name": "FEDERAL "
     }
   }]
 }, {
@@ -3026,8 +3027,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 505893203653,
@@ -3060,8 +3061,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 652555440384,
@@ -3090,8 +3091,8 @@
       "quality": "prensa"
     }],
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 227838986097,
@@ -3115,8 +3116,8 @@
     "end_date": "2019-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }, {
@@ -3148,8 +3149,8 @@
     "end_date": "2010-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 792933281872,
@@ -3172,8 +3173,8 @@
     "end_date": "2007-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }, {
     "id": 275324564334,
@@ -3197,8 +3198,8 @@
     "end_date": "2011-12-10",
     "end_date_accuracy": "year",
     "area": {
-      "id": "COAHUILA, ",
-      "name": "COAHUILA, "
+      "id": "COAHUILA ",
+      "name": "COAHUILA "
     }
   }]
 }]
