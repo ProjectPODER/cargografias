@@ -1,8 +1,8 @@
 
 window.cargo  =  window.cargo || {};
 window.cargo.plugins  = window.cargo.plugins || {};
-window.cargo.plugins.memberships =  {
-	key: "memberships",
+window.cargo.plugins.organization =  {
+	key: "organization",
 	boxHeight: 15,
 	height: 0,
 	data : [],
@@ -21,11 +21,11 @@ window.cargo.plugins.memberships =  {
 
       	var map = d.memberships.map( function(z){ 
 
-      		var area = z.area ? z.area.name : "AREA-NOT-FOUND";
-      		return z.role + "-" + area  ;
-      }); 
-      return map;
-  	})
+      		var area = z.organization ? z.organization.name : "ORG-NOT-FOUND";
+      		return area;
+	      }); 
+	      return map;
+	  })	
       //and now we remove duplicates
       membershipsArray = d3.merge(membershipsArray);
       $.each(membershipsArray, function(i, el){
@@ -46,16 +46,16 @@ window.cargo.plugins.memberships =  {
 	},
 	processIndex: function(d,i){
 		//Memberiship.ProcessIndex
-        //d.membershipsPosition = 
-        var area = d.area ? d.area.name : "AREA-NOT-FOUND";
-        var key = d.role + "-" + area ;
-        d.membershipsPosition = this.data.filter(
+        //d.organizationPosition = 
+        var area = d.organization ? d.organization.name : "ORG-NOT-FOUND";
+        var key = area ;
+        d.organizationPosition = this.data.filter(
         	function(d) { if (d.key === key)  return d;})[0];
         
 
 	},
 	setBoxHeight: function(){
-		if (controls.height == "memberships")
+		if (controls.height == "organization")
 		{
  			hei = (this.data.length * this.boxHeight)+100;
     		barHeight = (hei - padding.top - padding.bottom) / this.data.length;
@@ -72,7 +72,7 @@ window.cargo.plugins.memberships =  {
 
 			var transform = {
 				tx: scales.years(d.start),
-				ty: scales.indexes(d.membershipsPosition.i)
+				ty: scales.indexes(d.organizationPosition.i)
 			};
 			return transform;
 
@@ -87,7 +87,7 @@ window.cargo.plugins.memberships =  {
 	       	$("svg.vis path").css('opacity',0);
         	return;
         }
-        else if (controls.height == "memberships"){
+        else if (controls.height == "organization"){
 
 		var curves = d3.select(context)
 			.selectAll('path.curves')
@@ -116,7 +116,7 @@ window.cargo.plugins.memberships =  {
 		        	}
 		        //Scale Left
 		          var fromX = scales.years(d.end) ;	
-		          var fromY = scales.indexes(d.membershipsPosition.i) + barHeight /2;
+		          var fromY = scales.indexes(d.organizationPosition.i) + barHeight /2;
 
 				//Jump!
 		          var control1X = fromX + controlLenght;
@@ -124,7 +124,7 @@ window.cargo.plugins.memberships =  {
 
 		        //Scale Right
 		          var toX = scales.years(d.after.start) - 2;	
-		          var toY = scales.indexes(d.after.membershipsPosition.i) + barHeight /2;
+		          var toY = scales.indexes(d.after.organizationPosition.i) + barHeight /2;
 		        //Jump!
 		          var contorl2X = toX - controlLenght;
 		          var control2Y = toY;
@@ -146,12 +146,12 @@ window.cargo.plugins.memberships =  {
 	updateLabels: function(){
 		this.setBoxHeight();
         
-	  var labels = vis.selectAll('text.membershipLabel')
+	  var labels = vis.selectAll('text.organizationLabel')
 	    .data(this.data, function(d,i){ return d.key;});
 
 	  var texts = labels.enter()
 	    .append('text')
-	    .attr('class', 'membershipLabel')
+	    .attr('class', 'organizationLabel')
 	    
 	    
       	.attr("x", function(){ return padding.left / 7;})
@@ -169,7 +169,7 @@ window.cargo.plugins.memberships =  {
       	.duration(transitionDuration)
       	.style("opacity", function(d) {
 		    //On CarreerMeter hide years. 
-	        if (controls.height == "memberships")  return 1;
+	        if (controls.height == "organization")  return 1;
 	        	else return 0;
 		      })
       	.attr('dy','.33em')
@@ -178,7 +178,7 @@ window.cargo.plugins.memberships =  {
 
     labels.selectAll('tspan.main')
       	.text(function(d) {
-	    	if (controls.height == "memberships"){ 
+	    	if (controls.height == "organization"){ 
       			return d.pos + " - ";
       		}
       		else {
@@ -188,7 +188,7 @@ window.cargo.plugins.memberships =  {
 	    });
 	labels.selectAll('tspan.sub')
       	.text(function(d) {
-	    	if (controls.height == "memberships"){ 
+	    	if (controls.height == "organization"){ 
       			return d.org;
       		}
       		else {
@@ -210,7 +210,7 @@ window.cargo.plugins.memberships =  {
 		return padding.left;     
 	},
 	showOnlyHim: function(e,i){
-		if (controls.height == "territory" || controls.height =="memberships" || controls.height != "organization"){
+		if (controls.height == "territory" || controls.height =="memberships" || controls.height =="organization"){
 			$("svg.vis path[index!=" + i + "]").css('opacity',0.2);
   			$("svg.vis path[index=" + i + "]").css('opacity',1);
   		}
@@ -219,7 +219,7 @@ window.cargo.plugins.memberships =  {
   		}
 	},
 	showAll: function(e,i){
-		if (controls.height == "territory" || controls.height =="memberships" || controls.height != "organization"){
+		if (controls.height == "territory" || controls.height =="memberships" || controls.height =="organization"){
 			$("svg.vis path").css('opacity',1);
 		}
 		else {

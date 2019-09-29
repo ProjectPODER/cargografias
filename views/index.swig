@@ -16,7 +16,7 @@
         <meta name="robots" content="Index, All">
         <meta name="robots" content="Index, Follow">
         <meta name="revisit-after" content="10 days">
-        <link rel="shortcut icon" href="//www.cargografias.org/favicon.ico" type="image/x-icon">
+        {# <link rel="shortcut icon" href="//www.cargografias.ofavicon.ico" type="image/x-icon"> #}
         <meta property="fb:page_id" content="">
         <meta property="og:image" content="http://www.cargografias.org/img/pics/cargo.png">
         <meta property="og:description" content="Cargograf&#237as es una linea de tiempo que muestra los cargos publicos que tuvo cada funcionario a lo largo de su vida. Entra y arma tu comparacion.">
@@ -34,8 +34,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <link href="/favicon.ico" type="image/x-icon" rel="icon"/>
-        <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+        <link href="/img/favicon.png" type="image/png" rel="icon" />
+        <link href="/img/favicon.png" type="image/png" rel="shortcut icon" />
 
         <link href='//fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
@@ -57,6 +57,9 @@
         <link rel="stylesheet" href="/css/flexboxgrid.min.css" type="text/css">
         <link rel="stylesheet" href="/css/nuevo-cargo-base.css" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Roboto:400,700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/css/flujosilicitos.css" type="text/css">
+
 
         <!-- V2 Libs -->
         <script type="text/javascript" src="/js/lib/jquery-2.0.0.min.js"></script>
@@ -93,7 +96,7 @@
         <script>
             window.__config = {
                 baseStaticPath: '{{config.baseStaticPath}}',
-                lastUpdate: {{0 ? 0 | lastUpdate}} 
+                lastUpdate: {{0 ? 0 | lastUpdate}}
             }
         </script>
 
@@ -111,7 +114,7 @@
                 m.parentNode.insertBefore(a, m)
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-            ga('create', 'UA-8208559-4', 'auto');
+            ga('create', '', 'auto');
             ga('send', 'pageview');
         </script>
 
@@ -147,6 +150,7 @@
 
         <script src="/angular/visualizations/v4/plugins/cargo.memberships.js"></script>
         <script src="/angular/visualizations/v4/plugins/cargo.territory.js"></script>
+        <script src="/angular/visualizations/v4/plugins/cargo.organization.js"></script>
         <script src="/angular/visualizations/v4/cargo-timeline.js"></script>
         {# <script src="/js/lib/v2/cargo-bubbles.js"></script> #}
 
@@ -166,7 +170,7 @@
         {# <script src="/angular/factories/presetsFactory.js"></script> #}
 
         {# VISUALIZATIONS #}
-        <script src="/angular/Visualizations/v1/controller.js"></script>
+        <script src="/angular/visualizations/v1/controller.js"></script>
 
         <!--Import jQuery before materialize.js-->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>

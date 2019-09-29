@@ -153,7 +153,7 @@ updatePreviouslGraphs:function(){
 updateAdditionalGraphs:function(d,context){
 
 
-		if (controls.height != "memberships" && controls.height != "territory"){
+		if (controls.height != "memberships" && controls.height != "territory" && controls.height != "organization"){
         	$("svg.vis path").css('opacity',0);
         	return;
         }
@@ -211,7 +211,7 @@ updateAdditionalGraphs:function(d,context){
 		          return window.cargo.plugins.territory.colorScale(d.parent);
 		        });
 
-		       console.log('nice draw')
+		       console.log('nice draw pato')
 
 	        curves.exit().remove();
     	}
@@ -273,7 +273,7 @@ updateAdditionalGraphs:function(d,context){
 		return padding.left;
 	},
 	showOnlyHim: function(e,i){
-		if (controls.height == "territory" || controls.height =="memberships"){
+		if (controls.height == "territory" || controls.height =="memberships" || controls.height != "organization"){
 
 			$("svg.vis path[index!=" + i + "]").css('opacity',0.2);
   			$("svg.vis path[index=" + i + "]").css('opacity',1);
@@ -283,7 +283,7 @@ updateAdditionalGraphs:function(d,context){
   		}
 	},
 	showAll: function(e,i){
-		if (controls.height == "territory" || controls.height =="memberships"){
+		if (controls.height == "territory" || controls.height =="memberships" || controls.height != "organization"){
 			$("svg.vis path").css('opacity',1);
 		}
 		else {
