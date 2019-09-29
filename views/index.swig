@@ -150,6 +150,7 @@
 
         <script src="/angular/visualizations/v4/plugins/cargo.memberships.js"></script>
         <script src="/angular/visualizations/v4/plugins/cargo.territory.js"></script>
+        <script src="/angular/visualizations/v4/plugins/cargo.organization.js"></script>
         <script src="/angular/visualizations/v4/cargo-timeline.js"></script>
         {# <script src="/js/lib/v2/cargo-bubbles.js"></script> #}
 

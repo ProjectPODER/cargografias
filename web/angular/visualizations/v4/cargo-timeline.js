@@ -160,6 +160,7 @@ function processData() {
     //Todo: Move to plugin loader
     window.cargo.plugins.memberships.processData();
     window.cargo.plugins.territory.processData();
+    window.cargo.plugins.organization.processData();
 
     // calculate ordering items
     var y_area = padding.top;
@@ -197,6 +198,7 @@ function processData() {
 
         window.cargo.plugins.memberships.processIndex(d[j],j);
         window.cargo.plugins.territory.processIndex(d[j],j);
+        window.cargo.plugins.organization.processIndex(d[j],j);
 
 
         //Save previous year reference to be uses on carrear compare
@@ -248,6 +250,7 @@ function refreshGraph() {
   //Memberships.Height
   window.cargo.plugins.memberships.setBoxHeight();
   window.cargo.plugins.territory.setBoxHeight();
+  window.cargo.plugins.organization.setBoxHeight();
   // window.cargo.plugins.degroup.setBoxHeight();
 
 
@@ -272,6 +275,7 @@ function refreshGraph() {
 
   window.cargo.plugins.memberships.updatePreviouslGraphs();
   window.cargo.plugins.territory.updatePreviouslGraphs();
+  window.cargo.plugins.organization.updatePreviouslGraphs();
 
 
 
@@ -320,6 +324,7 @@ function refreshGraph() {
         else if (controls.display == "centered") return visCenter;
         else if (controls.display == "memberships") return window.cargo.plugins.memberships.getYearTickPosition();
         else if (controls.display == "territory") return window.cargo.plugins.territory.getYearTickPosition();
+        else if (controls.display == "organization") return window.cargo.plugins.organization.getYearTickPosition();
         else return padding.left;
       })
       .attr("y1", padding.top)
@@ -440,6 +445,10 @@ function refreshGraph() {
                 else if (controls.height == "territory"){
                   transform = window.cargo.plugins.territory.updateBoxes(d,i);
                 }
+                else if (controls.height == "organization"){
+                  console.log("processTransform",controls.height,d,i);
+                  transform = window.cargo.plugins.organization.updateBoxes(d,i);
+                }
 
 
                 d.tx = transform.tx;
@@ -465,6 +474,9 @@ function refreshGraph() {
                       }
                       else if (controls.height == "territory") {
                           d.color  = window.cargo.plugins.territory.colorScale(politician.position);
+                      }
+                      else if (controls.height == "organization") {
+                          d.color  = window.cargo.plugins.organization.colorScale(politician.position);
                       }
                       return d.color;
 
@@ -515,6 +527,9 @@ function refreshGraph() {
               else if (controls.height == "territory"){
                 return d.politician.family_name; //TODO: when do we add the years? + "(" + d.start + "-"+ d.end + ")"  ;
               }
+              else if (controls.height == "organization"){
+                return d.politician.family_name; //TODO: when do we add the years? + "(" + d.start + "-"+ d.end + ")"  ;
+              }
               else {
                 return d.role; //TODO: when do we add the years? + "(" + d.start + "-"+ d.end + ")"  ;
               }
@@ -531,6 +546,9 @@ function refreshGraph() {
               else if (controls.height == "territory"){
                 return d.role; //TODO: when do we add the years? + "(" + d.start + "-"+ d.end + ")"  ;
               }
+              else if (controls.height == "organization"){
+                return ""; //TODO: when do we add the years? + "(" + d.start + "-"+ d.end + ")"  ;
+              }
               else {
 		              return d.area.name; //TODO: uncomment after sinar test
                 //return d.area.name ; //TODO: when do we add the years? + "(" + d.start + "-"+ d.end + ")"  ;
@@ -543,6 +561,7 @@ function refreshGraph() {
 
     window.cargo.plugins.memberships.updateAdditionalGraphs(politician,this);
     window.cargo.plugins.territory.updateAdditionalGraphs(politician,this);
+    window.cargo.plugins.organization.updateAdditionalGraphs(politician,this);
 
     });
 
@@ -563,6 +582,7 @@ function refreshGraph() {
   window.cargo.plugins.memberships.updateLabels();
   //Territory.UpdateLabel
   window.cargo.plugins.territory.updateLabels();
+  window.cargo.plugins.organization.updateLabels();
   /************************************************************
   * Process Labels
   ***********************************************************/
@@ -606,6 +626,7 @@ function refreshGraph() {
           //Memberships.IndexLabel
           if (controls.height == "memberships"){ return window.cargo.plugins.memberships.updateIndexLabel();}
           else if (controls.height == "territory"){ return window.cargo.plugins.territory.updateIndexLabel();}
+          else if (controls.height == "organization"){ return window.cargo.plugins.organization.updateIndexLabel();}
           else{
             if(d.family_name){
               return d.initials +  " " + d.family_name;
@@ -630,6 +651,7 @@ function refreshGraph() {
           //Memberships.IndexLabel
           if (controls.height == "memberships"){ return window.cargo.plugins.memberships.updateIndexLabel();}
           else if (controls.height == "territory"){ return window.cargo.plugins.territory.updateIndexLabel();}
+          else if (controls.height == "organization"){ return window.cargo.plugins.organization.updateIndexLabel();}
           else{ return '   x  '}
         }).on('click',function(d,i){
            notify.remove(d);
@@ -674,6 +696,7 @@ function refreshGraph() {
         else if (controls.display == "centered") return visCenter;
         else if (controls.display == "memberships") return window.cargo.plugins.memberships.getYearTickPosition();
         else if (controls.display == "territory") return window.cargo.plugins.territory.getYearTickPosition();
+        else if (controls.display == "organization") return window.cargo.plugins.organization.getYearTickPosition();
         else return padding.left;
       })
       .attr("y", 20)
@@ -710,12 +733,22 @@ function setControls(o){
   else if (o ==="territory"){
        controls['display'] = 'timeline';
        controls['height'] = 'territory';
+             console.log('soy territorio 2');
+ }
+  //Membership.Action
+  else if (o ==="organization"){
+       controls['display'] = 'timeline';
+       controls['height'] = 'organization';
+             console.log('soy organizacion 2');
+
   }
   // 'name 'orderLine('height', 'contiguous')
   else if (o ==="career"){
       controls['display'] = 'aligned';
       controls['height'] = 'contiguous';
   }
+
+
   // 'timeline' filterLine('display','timeline')
   else{
       controls['display'] = 'timeline';
@@ -777,6 +810,7 @@ function showOnlyHim(e,i){
   //TODO: How to include plugins here?
   window.cargo.plugins.memberships.showOnlyHim(e,i);
   window.cargo.plugins.territory.showOnlyHim(e,i);
+  window.cargo.plugins.organization.showOnlyHim(e,i);
 
 }
 function showAll(e,i){
@@ -784,6 +818,7 @@ function showAll(e,i){
   //TODO: HOw to include plugins here?
   window.cargo.plugins.memberships.showAll(e,i);
   window.cargo.plugins.territory.showAll(e,i);
+  window.cargo.plugins.organization.showAll(e,i);
 
 }
 
