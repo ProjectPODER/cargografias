@@ -109,9 +109,13 @@ svg text{
   pointer-events: none;
   cursor: default;
   }
-#openResults > .ng-scope > .badge-selected {
+
+/* pa' ocultar los nombres agregados previamente */
+#openResults > .ng-scope > .badge-selected, #openResults > .ng-scope > .badge-selected:before { 
   display: none;
+  padding: 0 !important;
 }
+/* pa' ocultar los nombres agregados previamente */
 
 badge{
   transition: opacity 0.5s ease;
@@ -447,7 +451,7 @@ text.boxLabel tspan.sub{
   font-style: oblique;
   font-size: 0.8em;
 }
-text.itemLabel, text.membershipLabel, text.territoryLabel{
+text.itemLabel, text.membershipLabel, text.territoryLabel, text.organizationLabel{
  fill: #000;
  font-size: 0.75em;
 }
@@ -754,6 +758,10 @@ div.persona-seleccionada a.crucecita i{
   width: 200%;
   font-size: 0.8em;
   font-weight: normal;
+}
+
+#visualizaciones {
+  margin-bottom: 200px;  
 }
 
 @media (min-width: 666px) {
