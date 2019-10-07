@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="/img/favicon.png" type="image/png" rel="icon" />
+    <link href="/img/favicon.png" type="image/png" rel="shortcut icon" />
+
+
+     <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Roboto:400,700&display=swap" rel="stylesheet"> 
+    
+    <!-- V3 Styles -->
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/new-timeline.css" type="text/css">
+    <!-- V4 Styles -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="/css/flexboxgrid.min.css" type="text/css">
+    
+    <!-- <link rel="stylesheet" href="/css/cargo-base.css" type="text/css"> -->
+    <link rel="stylesheet" href="/css/animations.css" type="text/css">
+    <link rel="stylesheet" href="/bower_components/wow.js/css/libs/animate.css" type="text/css">
+    <link rel="stylesheet" href="/css/flujosilicitos.css" type="text/css">
+
+    
+    <!-- V2 Libs -->
+    <script type="text/javascript" src="/js/lib/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="/js/lib/underscore.min.js"></script>
+    <script type="text/javascript" src="/js/lib/d3.min.js"></script>
+    <script type="text/javascript" src="/js/lib/moment.min.js"></script>
+    <!-- <script type="text/javascript" src="/js/flujosilicitos.js"></script> -->
+
+
+    
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18158765-5']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+ 
+  {% block head %}
+    
+  {% endblock %}
+</head>
+<body>
+    <header>
+        <div  class="row header">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="box">
+                    <ul class="logos">
+                        <li>
+                            <a href="http://projectpoder.org/es/" target="_blank">
+                                <img style="width:115px;" src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/logop.png">
+                            </a>    
+                            <a href="https://www.rindecuentas.org/" target="_blank">
+                                <img src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/rindecuentas.svg" style="width:100%;max-height:20.141px;margin-left: 10px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.quienesquien.wiki/" target="_blank">
+                                <img src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/quienesquien.svg">
+                            </a>
+                            <a href="https://mexicoleaks.mx/enviar-para.php?r=poder" target="_blank">
+                                <img src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/mexicoleaks.svg">
+                            </a>                            
+                            <a href="https://leaks.pe/" target="_blank">
+                                <img class="peru" src="https://www.colaboratorio.org/wp-content/themes/colaboratorio/images/peruleaks.svg">
+                            </a>    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="/en" class="logo">ILLICIT FLOWS</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="/en" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="/en/coahuila" class="nav-links">Coahuila</a>
+            </li>
+            <li>
+                <a href="/en/veracruz" class="nav-links">Veracruz</a>
+            </li>
+            <li>
+                <a href="/en/cargografias" class="nav-links">Data</a>
+            </li>
+        </ul>
+    </nav>
+
+  {% block content %}
+    
+
+  {% endblock %}
+    
+    <footer>
+      <div class="row footer center-md center-xs">
+        <div class="col-xs-12
+              col-sm-12
+              col-md-12
+              col-lg-12
+              column-1">
+            <p>Con el apoyo de</p>
+            <a href="http://empowerllc.net/" target="_blank"><img src="/img/logos/empower.png" alt="Empower"></a>
+            <a href="http://www.frayjuandelarios.org/" target="_blank" ><img src="/img/logos/logo_alta.png" alt="" class="logo-size"></a>
+            <a href="http://imdhd.org/" target="_blank"><img src="/img/logos/Logo-IMDHD.png" alt=""></a>
+        </div>
+      </div>
+    </footer>
+  <script type="text/javascript" src="/js/lib/scrollspy.js"></script>
+  <script type="text/javascript" src="/js/flujosilicitos.js"></script>
+</body>
+</html>
+</html>

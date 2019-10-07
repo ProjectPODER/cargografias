@@ -5,11 +5,16 @@ var compression = require('compression');
 var swig = require('swig');
 var fichasController = require('./controllers/fichas.js')
 var embedController = require('./controllers/embed.js')
+// Spanish
 var aboutController = require('./controllers/about.js')
 var homeController = require('./controllers/home.js')
 var coahuilaController = require('./controllers/coahuila.js')
 var veracruzController = require('./controllers/veracruz.js')
 var datosController = require('./controllers/datos.js')
+// English
+var homeEnController = require('./controllers/home-en.js')
+var coahuilaEnController = require('./controllers/coahuila-en.js')
+var veracruzEnController = require('./controllers/veracruz-en.js')
 
 var conn = require('./db.js');
 
@@ -44,12 +49,18 @@ app.use(require('body-parser').json({
 }));
 
 // Routes
-app.get('/', homeController.index);
 
+// Spanish
+app.get('/', homeController.index);
 app.get('/about', aboutController.index);
 app.get('/coahuila', coahuilaController.index)
 app.get('/veracruz', veracruzController.index)
 app.get('/datos', datosController.index)
+
+// English
+app.get('/en', homeEnController.index);
+app.get('/en/coahuila', coahuilaEnController.index)
+app.get('/en/veracruz', veracruzEnController.index)
 
 
 app.use(express.static(__dirname + '/web'));
