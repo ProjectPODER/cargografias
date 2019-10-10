@@ -409,3 +409,9 @@ footer {
       margin-bottom: 50px;
     }
 }
+
+@media screen and (max-height: 477px) {
+    nav, header, .filter-container.gray {
+      display: none !important;
+    }
+}

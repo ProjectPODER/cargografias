@@ -16,6 +16,10 @@ var datosController = require('./controllers/datos.js')
 var homeEnController = require('./controllers/home-en.js')
 var coahuilaEnController = require('./controllers/coahuila-en.js')
 var veracruzEnController = require('./controllers/veracruz-en.js')
+// Iframes
+var iframe1Controller = require('./controllers/iframe-luna.js')
+var iframe2Controller = require('./controllers/iframe-desvio.js')
+var iframe3Controller = require('./controllers/iframe-munoz.js')
 
 var conn = require('./db.js');
 
@@ -62,6 +66,11 @@ app.get('/datos', datosController.index)
 app.get('/en', homeEnController.index);
 app.get('/en/coahuila', coahuilaEnController.index)
 app.get('/en/veracruz', veracruzEnController.index)
+
+// Iframes
+app.get('/iframe-luna-canales', iframe1Controller.index);
+app.get('/iframe-desvio', iframe2Controller.index);
+app.get('/iframe-munoz', iframe3Controller.index);
 
 
 app.use(express.static(__dirname + '/web'));
