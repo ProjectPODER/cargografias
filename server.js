@@ -1,4 +1,5 @@
 require('dotenv').load();
+// var createError = require('http-errors');
 var express = require('express');
 var http = require('http');
 var compression = require('compression');
@@ -108,7 +109,6 @@ app.get('/d/:instanceName', function(req, res) {
     });
 
 });
-
 
 app.get('/:instanceName/person/:personId/:nameslug?', fichasController.person)
 app.get('/:instanceName/organization/:organizationId/:nameslug?', fichasController.organization)

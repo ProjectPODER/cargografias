@@ -22,7 +22,6 @@ Coahuila | Flujos ilícitos
                                 <li><a href="#introduccion">Introducción</a></li>
                                 <li><a href="#techo">El techo de cristal</a></li>
                                 <li><a href="#desvio">Desvío y deuda</a></li>
-                                {# <li><a href="#colusion">Colusión: Poder político, poder económico</a></li> #}
                                 <li><a href="#operadores">Operadores financieros</a></li>
                             </ul>
 
