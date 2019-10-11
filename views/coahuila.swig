@@ -10,7 +10,29 @@ Coahuila | Flujos ilícitos
 {% endblock %}
 
 {% block content %}
-
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="/" class="logo">FLUJOS ILÍCITOS</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="/" class="nav-links">Inicio</a>
+            </li>
+            <li>
+                <a href="/coahuila" class="nav-links">Coahuila</a>
+            </li>
+            <li>
+                <a href="/veracruz" class="nav-links">Veracruz</a>
+            </li>
+            <li>
+                <a href="/cargografias" class="nav-links">Cargografías</a>
+            </li>
+            <li>
+                <a href="/en/coahuila" class="nav-links">English</a>
+            </li>
+        </ul>
+    </nav>
     <section>
         <div class="container">
             <div class="row">
@@ -54,7 +76,7 @@ Coahuila | Flujos ilícitos
                             <p>El papel de la Secretaría de Gobierno en esta reconfiguración y rediseño fue elemental. En ese sentido, hubo cierta continuidad durante el periodo 2005-16. Armando Luna Canales, originario de Saltillo, ocupó el puesto en dos ocasiones, la primera con Humberto Moreira entre 2008 y 2011, y la segunda con su hermano, Rubén Moreira, entre 2012 y 2015. La trayectoria profesional de Luna Canales también se ha desarrollado en el sector privado. Tomamos como base su declaración patrimonial y complementamos con búsquedas en SIGER y Marcanet. En el año 2008, Luna Canales obtuvo una patente para fungir como <a href="http://periodico.sfpcoahuila.gob.mx/modulo_versumariocompleto.asp?Id_Sumario=4236" target="_blank">notario público</a> en Coahuila. El siguiente diagrama muestra tanto los intereses comerciales de él y su familia, como las empresas que dio de alta en su capacidad de notario.</p>
                             <div class="text-center">
                                 <img class="img-responsive" src="/img/Luna_Canales_red.png" alt="Visualización">
-                                <p><a href="">Ver visualización interactiva en Kumu</a></p>
+                                <p><a href="/iframe-luna-canales">Ver visualización interactiva en Kumu</a></p>
                             </div>
                             <p>El caso de Luna Canales obliga a evaluar el papel de los notarios públicos en la conformación de empresas y la transferencia de propiedad en México. En ambos actos, la responsabilidad de verificar la información e identidad de las partes recae plenamente sobre el notario, o el fedatario público. En Coahuila, y en muchos otros estados en el país, se han otorgado patentes notariales a funcionarios públicas sin el debido control, y muchas veces como “premios” a funcionarios públicos una vez que dejan su puesto.</p>
                             <p>El mapeo de los intereses comerciales de los funcionarios públicos que han ocupado puestos claves dentro del gobierno del estado de Coahuila confirma que existe una falsa separación entre el poder político y el poder económico en el estado. Al contrario, todo señala a que uno complementa y fortalece al otro. Aunque esta red se centra en el periodo 2005-17 —es decir, en las administraciones de los hermanos Moreira—, surgieron también los nombres de gobernadores coahuilenses anteriores, como Rogelio Montemayor y Seguy (1993-99) y Enrique Martínez y Martínez (1999-2005).</p>
@@ -72,7 +94,7 @@ Coahuila | Flujos ilícitos
                             <p>Del 2008 al 2011, la <a href="https://www.asecoahuila.gob.mx/wp-content/uploads/2015/10/2010_TB1.pdf" target="_blank">Auditoría Superior de la Federación</a> identificó que la deuda de Coahuila había pasado de 1,800 millones de pesos a 35,541 millones de pesos, representando un aumento del 1,874%. La malversación de fondos públicos fue facilitado por varios actores, incluyendo notarios, intermediarios y bancos. Tanto Héctor Villarreal como Jorge Torres involucraron a familiares y otras personas de confianza en sus empresas, nombres que resaltan en el siguiente diagrama.</p>
                             <div class="text-center">
                                 <img class="img-responsive" src="/img/desvio_red.jpeg" alt="Visualización">
-                                <p><a href="">Ver visualización interactiva en Kumu</a></p>
+                                <p><a href="/iframe-desvio">Ver visualización interactiva en Kumu</a></p>
                             </div>
                             <p>El tema de la deuda estatal no es el único ejemplo de la transferencia de recursos públicos al sector privado. Si se analiza el esquema de corrupción y de lavado de dinero involucrando a los empresarios Luis Alfredo Rayet Díaz, Luis Carlos Castillo Cervantes y Alejandro Gutiérrez Gutiérrez, se ve cómo se empiezan a superponer las redes de intereses empresariales. Por ejemplo, Lorenzo Schuessler Jr., cuñado de Javier Villarreal y vinculado a su proceso legal en EE.UU., participa como apoderado de la empresa Rajet Aereo, S.A. de C.V., vinculada a la familia Rayet. Al mismo tiempo, Luis Alfredo Rayet Díaz y Alejandro Gutiérrez Gutiérrez han participado en las mismas empresas desde por lo menos el 2003 en la empresa Jet-Combustibles, S.A. de C.V., Alejandro como socio y Luis Alfredo como administrador único de la empresa. En el 2007, ambos incorporan la empresa Smart Card Company de México, S.A. de C.V., en Ramos Arizpe, proveedora de servicios dentro del sector aeronáutico.</p>
                             <p>Es importante señalar que, a este nivel de análisis, no se está señalando la participación de todos estos individuos y/o empresas en delitos específicos, sino se están mapeando a nivel macro redes económicas alrededor de actores acusados formalmente de cometer crímenes financieros en México o en el extranjero, como los casos de Héctor Javier Villarreal Hernández y Jorge Juan Torres López (Criminal Proceeding C-13-1075), y el de Luis Carlos Castillo Cervantes (C-16-cr-00802).</p>
@@ -85,7 +107,7 @@ Coahuila | Flujos ilícitos
                             <p>Desde su detención, varios funcionarios públicos han sido señalados por medios de comunicación y otras fuentes de tener vínculos con Muñoz y sus empresas. El siguiente diagrama mapea los vínculos que se pudieron comprobar a través del SIGER.</p>
                             <div class="text-center">
                                 <img class="img-responsive" src="/img/Muñoz_red.jpeg" alt="Visualización">
-                                <p><a href="">Ver visualización interactiva en Kumu</a></p>
+                                <p><a href="/iframe-munoz">Ver visualización interactiva en Kumu</a></p>
                             </div>
                             <p>El alcance de la red es significativo. Analizar los intereses comerciales de Muñoz, además, permite identificar a otros operadores clave dentro de la red de empresas de gasolineras en Coahuila como, por ejemplo, a Gustavo Adolfo Fuentes Yañez y a Víctor Manuel Rodríguez Sáenz.</p>
                             <p>Es importante señalar el papel elemental que tienen los notarios dentro de estas redes macrocriminales. En México, la responsabilidad de validar la información contenida en el Registro Público del Comercio (RPC) recae sobre los notarios. Actores criminales (tanto armados como no armados) suelen utilizar redes de notarios para velar su control sobre empresas u otros vehículos comerciales, y así ocultar flujos ilícitos. Empresas y propiedades son traspasadas con su complicidad.</p>

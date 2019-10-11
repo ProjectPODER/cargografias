@@ -10,7 +10,29 @@ Flujos ilícitos
 {% endblock %}
 
 {% block content %}
-
+<nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fa fa-bars"></i>
+    </span>
+    <a href="/" class="logo">FLUJOS ILÍCITOS</a>
+    <ul class="main-nav" id="js-menu">
+        <li>
+            <a href="/" class="nav-links">Inicio</a>
+        </li>
+        <li>
+            <a href="/coahuila" class="nav-links">Coahuila</a>
+        </li>
+        <li>
+            <a href="/veracruz" class="nav-links">Veracruz</a>
+        </li>
+        <li>
+            <a href="/cargografias" class="nav-links">Cargografías</a>
+        </li>
+        <li>
+            <a href="/en/iframe-luna-canales" class="nav-links">English</a>
+        </li>
+    </ul>
+</nav>
 <section id="home-container">
   <div class="container">
     <div id="home-1">
@@ -19,6 +41,7 @@ Flujos ilícitos
               col-sm-12
               col-md-12
               col-lg-12">
+            <p><a href="/coahuila">< Regresar</a></p>
             <div class="resp-container">
                 <iframe class="resp-iframe" src="https://embed.kumu.io/fa994c3b9c3779e4981029948c78ea1a" frameborder="0"></iframe>
             </div>

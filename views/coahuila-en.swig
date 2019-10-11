@@ -10,7 +10,29 @@ Coahuila | Illicit flows
 {% endblock %}
 
 {% block content %}
-
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="/en" class="logo">ILLICIT FLOWS</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="/en" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="/en/coahuila" class="nav-links">Coahuila</a>
+            </li>
+            <li>
+                <a href="/en/veracruz" class="nav-links">Veracruz</a>
+            </li>
+            <li>
+                <a href="/cargografias" class="nav-links">Cargografías</a>
+            </li>
+            <li>
+                <a href="/coahuila" class="nav-links">Spanish</a>
+            </li>
+        </ul>
+    </nav>
     <section>
         <div class="container">
             <div class="row">
@@ -50,13 +72,13 @@ Coahuila | Illicit flows
                             <div class="resp-container">
                                 <iframe class="resp-iframe" src="/cargografias#/name-851604018568-606251979264-987006659690-515239130449-666403503344-692977130742-865263516439-622751967345" frameborder="0"></iframe>
                             </div>
-                            <p><i>Jump to the Cargografías tool<a href="/cargografias" target="_blank">to trace the political careers of key individuals within the Coahuila state administration between 2005 and 2017</i></a></p>
+                            <p><i>Jump to the Cargografías tool <a href="/cargografias" target="_blank">to trace the political careers of key individuals within the Coahuila state administration between 2005 and 2017</i></a></p>
                             <p>Starting in 2009, Humberto Moreira’s government passed significant institutional reforms to the state public administration, many promoted by the Coahuila Secretary of State (Secretaría de Gobierno). Between <a href="http://periodico.sfpcoahuila.gob.mx/ArchivosPO/38-PS-12-MAY-2009.PDF" target="_blank">March</a>  and <a href="http://www.congresocoahuila.gob.mx/portal/wp-content/uploads/2014/11/20090609_Ejec_10.pdf" target="_blank">June 2009</a>, the Coahuila state government transferred the duties of the Secretary of Public Security, the State Penitentiary System, and the Office of the General Prosecutor of the State of Coahuila to a new entity called the Office of the Attorney-General of the State of Coahuila (Fiscalía General del Estado de Coahuila, hereinafter Fiscalía). The lack of division of powers, however, reinforced impunity in the state and reduced institutional accountability by placing them all under the oversight of the Fiscalía, under Jesús Torres Charles, linked to organized crime in U.S. court testimonies.<sup><a href="#4">4</a></sup></p>
                             <p>A second institutional reform in April 2010 created the Coahuila Tax Administration Service (Servicio de Administración Tributaria del Estado de Coahuila - SATEC), the government entity responsible for state revenue collection and administration. Between April and December 2010, the SATEC was given increased functions and budget oversight, including the contracting of debt and bond issues. Rents derived from the following independent government bodies were transferred to the SATEC: Promotora para el Desarrollo Minero (Prodemi), <a href="http://www.sefincoahuila.gob.mx/sistemas/entidades_paraestatales/documentos/saep_marco_juridico/1070103-9-PERIODICO%20OFICIAL%20NO.%2050%2022%20JUN%202010.PDF" target="_blank">the Promotora Inmobiliaria para el Desarrollo Económico de Coahuila (Pideco)</a>, the Comisión Estatal de Agua y Saneamiento (CEAS), and the newly created state company Servicios Estatales Aeroportuarios (SEA). Between 2010 and 2011, Hector Javier Villarreal Hernandez presided the SATEC, period in which Coahuila’s debt increased from MXN 7.4 billion to MXN 35.5 billion. In 2014, Villarreal Hernandez pleaded guilty to federal money laundering charges in the U.S.</p>
                             <p>The role of the Secretary of State (Secretaría de Gobierno) in this institutional engineering was fundamental. During the period 2005-16, there was certain continuity in the leadership of the institution. Armando Luna Canales, originally from Saltillo, occupied the position on two occasions: the first with Humberto Moreira between 2008 and 2011, and the second with his brother Ruben Moreira between 2012 and 2015. Luna Canales’s professional trajectory has been primarily in government. Self-reported information in asset declarations, and searches in SIGER and MARCANET, indicate that he has also maintained significant interests in the private sector. Furthermore, in 2008 Luna Canales obtained a <a href="http://periodico.sfpcoahuila.gob.mx/modulo_versumariocompleto.asp?Id_Sumario=4236" target="_blank">patent to act as a public notary in Coahuila</a>. The following diagram maps his and his family’s commercial interests, as well as the companies that he has incorporated in his capacity as notary.</p>
                             <div class="text-center">
                                 <img class="img-responsive" src="/img/Luna_Canales_red.png" alt="Visualización">
-                                <p><a href="">View the interactive graph directly on Kumu</a></p>
+                                <p><a href="/en/iframe-luna-canales">View the interactive graph directly on Kumu</a></p>
                             </div>
                             <p>The case of Luna Canales raises the question regarding the role public notaries have in the incorporation of companies and in the transfer of property in Mexico. In both acts, the responsibility to verify and validate information and the identity of the parties falls entirely to the notary. In Coahuila, much like other states in the country, patents to act as notaries have been conceded, many times as a “gift,” to public servants once they leave their posts.</p>
                             <p>The mapping of key public servants’ commercial interests in Coahuila confirms that there is a false separation between political and economic power in the state. On the contrary, it would appear that one strengthens the other. Even though the commercial interests network focuses on the period 2005-17 — that is, on the administrations of the Moreira brothers —, the names of past Coahuila governors also appear in the network, including those of Rogelio Montemayor y Seguy (1993-99) and Enrique Martínez y Martínez (1999-2005).</p>
@@ -74,7 +96,7 @@ Coahuila | Illicit flows
                             <p>Between 2008 and 2011, the Federal Auditor’s Office (<a href="https://www.asecoahuila.gob.mx/wp-content/uploads/2015/10/2010_TB1.pdf" target="_blank">Auditoría Superior de la Federación</a> - ASF) identified that the debt in Coahuila had passed from MXN 1,800 million to MXN 35,541 million, an increase of 1,874%. The embezzlement of public funds was facilitated by various actors, including notaries, intermediaries, and banks. Héctor Villarreal and Jorge Torres involved family members and close associates in the network of companies and bank accounts used to move money across borders, as seen in the following diagram.</p>
                             <div class="text-center">
                                 <img class="img-responsive" src="/img/desvio_red.jpeg" alt="Visualización">
-                                <p><a href="">View the interactive graph directly on Kumu</a></p>
+                                <p><a href="/en/iframe-desvio">View the interactive graph directly on Kumu</a></p>
                             </div>
                             <p>The issue of Coahuila’s debt is not the only example of a massive transfer of public funds to the private sector. If we analyze the scheme of corruption and money laundering involving businessmen Luis Alfredo Rayet Díaz, Luis Carlos Castillo Cervantes, and Alejandro Gutiérrez Gutiérrez — all facing trials for financial crimes either in Mexico or in the U.S. —, we see how business interest networks begin to overlap. For instance, Lorenzo Schuessler Jr., the brother-in-law of Javier Villarreal and linked to his legal process in the U.S., participated as legal representative of the company Rajet Aereo, S.A. de C.V., controlled by the Rayet family. At the same time, Luis Alfredo Rayet Díaz and Alejandro Gutiérrez Gutiérrez are linked through three companies since at least 2003. In the company Jet-Combustibles, S.A. de C.V., Alejandro was listed as partner and Luis Alfredo as sole administrator.</p>
                             <p>In 2007, both incorporated the company Smart Card Company de México, S.A. de C.V., in Ramos Arizpe, a service company operating in the aeronautical sector.</p>
@@ -88,7 +110,7 @@ Coahuila | Illicit flows
                             <p>Since his arrest, several public servants have been liked to his network of companies and associations. The following network graph shows these links, as confirmed through SIGER:</p>
                             <div class="text-center">
                                 <img class="img-responsive" src="/img/Muñoz_red.jpeg" alt="Visualización">
-                                <p><a href="">View the interactive graph directly on Kumu</a></p>
+                                <p><a href="/en/iframe-munoz">View the interactive graph directly on Kumu</a></p>
                             </div>
                             <p>The network’s reach is considerable. An analysis of Muñoz’s commercial interests, furthermore, highlights the participation of key individuals within his network of gasoline companies in Coahuila, such as the case of Gustavo Adolfo Fuentes Yañez and Victor Manuel Rodríguez Sáenz. Again, it is important to note the role of notaries within macro-criminal networks and within Muñoz’s network specifically. Many of the companies incorporated by Muñoz and his closer network rely on the same individuals to notarize the incorporation of companies, the changes in ownership structure, and even the transfer of properties. Illicit financial flows are facilitated through these structures.</p>
                         </div>

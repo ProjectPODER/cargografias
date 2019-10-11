@@ -20,6 +20,10 @@ var veracruzEnController = require('./controllers/veracruz-en.js')
 var iframe1Controller = require('./controllers/iframe-luna.js')
 var iframe2Controller = require('./controllers/iframe-desvio.js')
 var iframe3Controller = require('./controllers/iframe-munoz.js')
+// Iframes-en
+var iframe4Controller = require('./controllers/iframe-luna-en.js')
+var iframe5Controller = require('./controllers/iframe-desvio-en.js')
+var iframe6Controller = require('./controllers/iframe-munoz-en.js')
 
 var conn = require('./db.js');
 
@@ -72,6 +76,10 @@ app.get('/iframe-luna-canales', iframe1Controller.index);
 app.get('/iframe-desvio', iframe2Controller.index);
 app.get('/iframe-munoz', iframe3Controller.index);
 
+// Iframes-en
+app.get('/en/iframe-luna-canales', iframe4Controller.index);
+app.get('/en/iframe-desvio', iframe5Controller.index);
+app.get('/en/iframe-munoz', iframe6Controller.index);
 
 app.use(express.static(__dirname + '/web'));
 
