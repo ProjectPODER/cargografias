@@ -623,7 +623,7 @@ color: #ffffff;
 .child-container {
   display: flex;
 align-items: flex-start;
-justify-content: space-between;
+justify-content: space-around;
 }
 .visualization-bar ul {
   display: flex;
@@ -886,5 +886,8 @@ margin-right: auto;
   text-decoration: none;
   display: inline;
   padding: 1rem;
+}
 
+div.main div.module div.timeline-filter ul > li {
+    font-size: 18px !important;
 }
